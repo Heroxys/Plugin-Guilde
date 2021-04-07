@@ -1,0 +1,17 @@
+######## PERMISSIONS ########
+# guild.create -> Permission a mettre aux Citoyens qui permet de créer une guilde
+# guild.remove -> Permission a mettre au Staff qui permet d'enlever un joueur de sa guilde
+#############################
+
+Guilds:
+  BasicConfiguration:
+    GuildCreationCost: 50000 #StickyMoney
+    GuildRenameCost: 10000 #StickyMoney
+  Messages:
+    CreationSuccess: "§a[§2Guildes§a] §2Votre guilde a été créée avec succès"
+    NotEnoughMoney: "§c[§4Guildes§c] §4Vous ne possédez pas les moyens de créer une guilde"
+    Console: "§c[§4Guildes§c] §4Tu ne peux pas gérer de guilde en tant que console"
+    WaitingName: "§a[§2Guildes§a] §2Veuillez entrer le nom de votre guilde dans le chat"
+    NameExist: "§c[§4Guildes§c] §4Désolé, mais ce nom existe déjà"
+    MessageLeave: "§c[§4Guildes§c] §4Vous venez de quittez votre guilde"
+    CreatorLeave: "§3Vous ne pouvez pas quitter votre guilde en tant que créateur de celle-ci"
