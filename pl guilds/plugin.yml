@@ -1,0 +1,19 @@
+name: Guilds
+version: 1.0
+author: Dark
+main: com.dark.guilds.Guilds
+commands:
+  guilde:
+    aliases: [g]
+  menu:
+  jidesfrnhjbfezsjnfkjde:
+  bataille:
+  gspy:
+  qclear:
+  qverify:
+    aliases: [qverif]
+  claim:
+  show:
+  ap:
+  achat:
+depends: [WorldGuard, Vault]
